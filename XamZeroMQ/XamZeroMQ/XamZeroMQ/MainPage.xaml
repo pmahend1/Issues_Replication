@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamZeroMQ"
+             x:Class="XamZeroMQ.MainPage">
+    <StackLayout>
+        <Button Text="Cancel this" x:Name="buttonCancel" Clicked="ButtonCancel_OnClicked"/>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+        <Button Text="Server"
+                x:Name="buttonServer"
+                Clicked="ButtonServer_OnClicked" />
+        <Button Text="Client"
+                x:Name="buttonClient"
+                Clicked="ButtonClient_OnClicked" />
+
+    </StackLayout>
+</ContentPage>
